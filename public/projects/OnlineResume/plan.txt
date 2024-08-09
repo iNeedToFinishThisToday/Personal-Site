@@ -1,0 +1,39 @@
+TODO 1: Layout folder structure - done!
+
+TODO 2: Write the text for Ross Geller - done!
+
+TODO 3: Get images - done!
+
+TODO 4: Write index.html - done!
+
+TODO 5: Write hobbies.html and contact.html - done!
+
+TODO 6: Add the CSS to the HTML files - done!
+
+
+TEXT
+----
+
+TITLE: Meet Ross Geller Ph.D
+
+SUMMERY: My name is Ross Geller, I have a Ph.D in paleontology.
+
+EDUCATION: Ph.D from Columbia University
+
+WORK EXPERIENCE: Paleontologiest at the New York Museum of Prehistoric History/Professor at the New York University
+
+SKILLS: Paleontology/Unagi/the divorsinator
+
+AWARDS: Got 1250 on my SAT's/Invented "Got Milk?"/Winner of the Geller Cup
+
+HOBBIES: Rachel
+CONTACT: ross.divorse2@hotmail.com
+
+      style="
+        display: block;
+        background-color: black;
+        color: white;
+        border: solid magenta 2px;
+        padding: 20px 10px;
+        margin: 10px 5px;
+      "

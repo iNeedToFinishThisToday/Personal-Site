@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./public/style.css" />
+    <title>I Need to Finish this Today</title>
+  </head>
+  <body>
+    <!--background-->
+    <svg class="position-fixed w-100 h-100 z-n1">
+      <defs>
+        <linearGradient id="grad1">
+          <stop offset="0%" stop-color="var(--bs-indigo)" />
+          <stop offset="100%" stop-color="var(--bs-blue)" />
+        </linearGradient>
+      </defs>
+      <ellipse style="rx: 110%; ry: 101%" fill="url(#grad1)" />
+      Sorry, your browser does not support inline SVG.
+    </svg>
+
+    <svg class="position-fixed w-100 h-100 z-n1">
+      <defs>
+        <linearGradient id="grad2">
+          <stop offset="0%" stop-color="var(--bs-gray-100)" />
+          <stop offset="100%" stop-color="var(--bs-gray-400)" />
+        </linearGradient>
+      </defs>
+      <ellipse
+        style="cx: 101%; cy: 140%; rx: 101%; ry: 100%"
+        fill="url(#grad2)"
+      />
+      Sorry, your browser does not support inline SVG.
+    </svg>
+
+    <div class="d-flex flex-column" style="gap: 10rem">
+      <!--hero-->
+      <section class="hero" id="hero">
+        <div class="container pt-5">
+          <div class="d-flex flex-column gap-5 pt-5 text-light text-center">
+            <h1 class="display-1">I Need to Finish this Today</h1>
+            <p class="fs-5 fw-light mt-3 mb-0">
+              Your friendly web dev enthusiast turning web ideas into reality,
+              one pixel at a time.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--resume-->
+      <section class="resume" id="resume">
+        <div class="container">
+          <div class="card">
+            <div class="card-body pt-4 px-4">
+              <h3 class="card-title h2 fw-medium">My Resume</h3>
+              <p class="card-text fs-4">
+                Passionate web developer with 5 years of experience in crafting
+                engaging, user-friendly websites. Skilled in HTML, CSS,
+                JavaScript, and popular frameworks like React and Node.js.
+                Committed to delivering high-quality, responsive designs and
+                seamless user experiences.
+              </p>
+              <div class="py-0 text-end">
+                <button
+                  class="btn btn-outline-primary fs-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#fullResume"
+                  aria-expanded="false"
+                  aria-controls="fullResume"
+                >
+                  Full resume
+                </button>
+              </div>
+            </div>
+
+            <div class="collapse py-3 px-5" id="fullResume">
+              <div class="border border-1 rounded p-2">
+                <p class="h3 fw-medium">Isacc Needs to Finish this Today</p>
+                <br />
+                <p class="card-text fs-5">
+                  <span class="h4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-briefcase-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5"
+                      />
+                      <path
+                        d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z"
+                      />
+                    </svg>
+                    Experience
+                  </span>
+                  <br />
+                  <span class="h5">Freelance Web Developer 3 years - </span>
+                  Present Designed and developed custom websites for various
+                  clients, focusing on responsive design and user engagement.
+                  <br /><br />
+
+                  <span class="h5"
+                    >Web Development Intern at Google 2 years –
+                  </span>
+                  Assisted in building and maintaining websites, troubleshooting
+                  issues, and optimizing performance.
+                  <br /><br />
+
+                  <span class="h4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-wrench"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M.102 2.223A3.004 3.004 0 0 0 3.78 5.897l6.341 6.252A3.003 3.003 0 0 0 13 16a3 3 0 1 0-.851-5.878L5.897 3.781A3.004 3.004 0 0 0 2.223.1l2.141 2.142L4 4l-1.757.364zm13.37 9.019.528.026.287.445.445.287.026.529L15 13l-.242.471-.026.529-.445.287-.287.445-.529.026L13 15l-.471-.242-.529-.026-.287-.445-.445-.287-.026-.529L11 13l.242-.471.026-.529.445-.287.287-.445.529-.026L13 11z"
+                      />
+                    </svg>
+                    Skills
+                  </span>
+                  <br />
+                  HTML, CSS, JavaScript React, Node.js Responsive Design UX/UI
+                  <br /><br />
+                  <span class="h4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-book-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"
+                      />
+                    </svg>
+                    Principles Education
+                  </span>
+                  Software Engineering IBM 2020
+                </p>
+              </div>
+            </div>
+
+            <div class="card-footer px-4">
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Last updated 1 day ago</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--projects-->
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4 my-3">
+              <div class="card">
+                <div class="card-header">
+                  <p class="card-text">
+                    <small class="text-body-secondary">Project 1</small>
+                  </p>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title fw-medium">Online Resume</h4>
+                  <p class="card-text fs-5">
+                    Welcome to my online resume site! Here, you’ll find a
+                    snapshot of my journey as a web developer, showcasing my
+                    projects, skills, and experiences. Whether you’re interested
+                    in my latest work or want to learn more about my background,
+                    this site offers a comprehensive view of what I can bring to
+                    the table. Dive in and let’s connect!
+                  </p>
+                  <div class="border border-1 rounded p-2">
+                    <a
+                      href="./public/projects/OnlineResume/index.html"
+                      target="_blank"
+                    >
+                      <img
+                        src="./assets/images/Screenshot 2024-08-09 at 16.53.55.png"
+                        alt="project 1 picture"
+                        class="w-100"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 1 week ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4 my-3">
+              <div class="card">
+                <div class="card-header">
+                  <p class="card-text">
+                    <small class="text-body-secondary">Project 2</small>
+                  </p>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title fw-medium">Portfolio Website</h4>
+                  <p class="card-text fs-5">
+                    Explore my portfolio to see a curated collection of my web
+                    development projects. Each piece showcases my skills in
+                    creating engaging, user-friendly websites. Dive into my work
+                    and discover how I can help bring your digital vision to
+                    life.
+                  </p>
+                  <div class="border border-1 rounded p-2">
+                    <a
+                      href="./public/projects/PortfolioWebsite/index.html"
+                      target="_blank"
+                    >
+                      <img
+                        src="./assets/images/Screenshot 2024-08-02 at 19.13.15.png"
+                        alt="project 2 picture"
+                        class="w-100"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated 2 weeks ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4 my-3">
+              <div class="card">
+                <div class="card-header">
+                  <p class="card-text">
+                    <small class="text-body-secondary">Project 3</small>
+                  </p>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title fw-medium">Birthday Invite</h4>
+                  <p class="card-text fs-5">
+                    Welcome to my birthday invitation site! Here, you’ll find
+                    all the details for my upcoming celebration, including the
+                    date, time, and venue. RSVP, get directions, and stay
+                    updated on any special surprises. Can’t wait to celebrate
+                    with you!
+                  </p>
+                  <div class="border border-1 rounded p-2">
+                    <a
+                      href="./public/projects/BirthdayInvite/index.html"
+                      target="_blank"
+                    >
+                      <img
+                        src="./assets/images/1_gettyimages-918093946-170667a.webp"
+                        alt="project 3 picture"
+                        class="w-100"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <p class="card-text">
+                    <small class="text-body-secondary"
+                      >Last updated on 07/07/2024</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--about-->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="card">
+            <div class="card-body pt-4 px-4">
+              <h3 class="card-title h2 fw-medium">About me</h3>
+              <p class="card-text fs-4">
+                Hi there! I’m Isacc, a web developer with a passion for creating
+                seamless digital experiences. With a background in HTML, CSS,
+                and JavaScript, I thrive on turning ideas into interactive and
+                user-friendly websites. Outside of coding, I love exploring new
+                tech trends, tackling creative challenges, and enjoying a good
+                cup of coffee. Thanks for stopping by—feel free to connect or
+                explore my work!
+                <br /><br />
+                Outside of coding, I love exploring new tech trends, tackling
+                creative challenges, and enjoying a good cup of coffee. When I’m
+                not in front of a screen, you might find me hiking, reading
+                sci-fi novels, or experimenting with new recipes in the kitchen.
+                I believe in continuous learning and always seek to expand my
+                skill set and knowledge.
+                <br /><br />
+                Thanks for stopping by—feel free to connect, explore my work, or
+                just drop a message to say hello! I’m always excited to
+                collaborate on new ideas and projects.
+              </p>
+            </div>
+
+            <div class="card-footer px-4">
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Last updated on 04/02/2023</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--footer-->
+      <sectoin class="footer">
+        <div class="container">
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item">
+                <a href="#hero" class="nav-link px-2 text-body-secondary"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#resume" class="nav-link px-2 text-body-secondary"
+                  >Resume</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link px-2 text-body-secondary"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link px-2 text-body-secondary"
+                  >About me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://github.com/iNeedToFinishThisToday"
+                  class="nav-link px-2 text-body-secondary"
+                  target="_blank"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <p class="text-center text-body-secondary">
+              © 2024 INeedToFinishThisToday
+            </p>
+          </footer>
+        </div>
+      </sectoin>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
